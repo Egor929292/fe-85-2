@@ -1,3 +1,7 @@
+:root {
+  --white: #FFF;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -10,6 +14,13 @@ body {
   list-style: none;
 }
 
+
+/**--------------- HEADER ---------------*/
+
+.header {
+  background-color: #7b7575;
+}
+
 .header-link {
   font-weight: 600;
   font-size: 12px;
@@ -18,25 +29,181 @@ body {
   color: #FFF;
 }
 
+.header-link:is(:hover, :focus) {
+  color: #FF6C00;
+}
+
 .header-tel {
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-
   color: #FFF;
 }
 
 .header-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color:#FFF;
+  cursor: pointer;
+}
+
+.header-btn:is(:hover, :focus) {
+  color: #fff;
+  background-color: #FF6C00;
+}
+
+/**--------------- HERO ---------------*/
+
+.hero {
+  background-color: #7b7575;
+}
+
+.hero-list {
+}
+.list {
+}
+.hero-item {
+}
+
+.hero-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+
+.hero-link:is(:hover, :focus) {
+  color: #FF6C00;
+}
+
+.hero-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.60);
+}
+
+.hero-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: #FFF;
+}
+
+.hero-bottom-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+/**--------------- ABOUT ---------------*/
+
+.about {
+}
+.about-list {
+}
+.about-item {
+}
+
+.about-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.about-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.about-bottom-text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #303030;
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.2em;
+  color: #555;
+}
+
+.about-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.about-btn:is(:hover, :focus) {
+  color: #fff;
+  background-color: #FF6C00;
+}
+
+/**--------------- PRICES ---------------*/
+
+.prices {
+  background-color: #303030;
+}
+.prices-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.60);
+}
+.prices-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: #FFF;
+}
+.prices-list {
+}
+
+.prices-item {
+}
+.prices-item-text {
+  font-size: 18px;
+  line-height: 1.67; 
+  letter-spacing: 0.02em;
+  color: #9DA4BD;
+}
+.prices-btn {
 font-family: inherit;
 font-weight: 600;
 font-size: 12px;
-line-height: 1.33;
+line-height: 16px;
 letter-spacing: 0.09em;
 text-transform: uppercase;
-color:#FFF;
-cursor: pointer;
+color: #FFF;
+}
+
+.prices-btn:is(:hover, :focus) {
+  color: #fff;
+  background-color: #FF6C00;
 }
 
 
