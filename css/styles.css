@@ -1,5 +1,8 @@
 :root {
-  --white: #FFF;
+  --main-title-color: #fff;
+  --second-title-color: #303030;
+  --main-btn-color: #fff;
+  --second-btn-color: #303030;
 }
 
 body {
@@ -49,12 +52,12 @@ body {
   line-height: 1.33;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  color:#FFF;
+  color: var(--main-btn-color);
   cursor: pointer;
 }
 
 .header-btn:is(:hover, :focus) {
-  color: #fff;
+  color: var(--main-btn-color);
   background-color: #FF6C00;
 }
 
@@ -96,7 +99,7 @@ body {
   font-size: 72px;
   line-height: 1.18;
   letter-spacing: 0.05em;
-  color: #FFF;
+  color: var(--main-title-color);
 }
 
 .hero-bottom-text {
@@ -128,7 +131,7 @@ body {
   font-size: 42px;
   line-height: 1.17;
   letter-spacing: 0.05em;
-  color: #303030;
+  color: var(--second-title-color);
 }
 
 .about-bottom-text {
@@ -153,11 +156,11 @@ body {
   line-height: 1.33;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  color: #303030;
+  color:var(--second-btn-color);
 }
 
 .about-btn:is(:hover, :focus) {
-  color: #fff;
+  color: var(--main-btn-color);
   background-color: #FF6C00;
 }
 
