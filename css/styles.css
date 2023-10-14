@@ -3,6 +3,7 @@
   --second-title-color: #303030;
   --main-btn-color: #fff;
   --second-btn-color: #303030;
+  --accent-color: #ff6c00;
 }
 
 body {
@@ -17,6 +18,40 @@ body {
   list-style: none;
 }
 
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn:is(:hover, :focus) {
+  color: var(--main-btn-color);
+  background-color: #FF6C00;
+}
+
+.top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+
+.bottom-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
 
 /**--------------- HEADER ---------------*/
 
@@ -46,19 +81,7 @@ body {
 }
 
 .header-btn {
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
   color: var(--main-btn-color);
-  cursor: pointer;
-}
-
-.header-btn:is(:hover, :focus) {
-  color: var(--main-btn-color);
-  background-color: #FF6C00;
 }
 
 /**--------------- HERO ---------------*/
@@ -87,10 +110,6 @@ body {
 }
 
 .hero-top-text {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  text-transform: uppercase;
   color: rgba(157, 164, 189, 0.60);
 }
 
@@ -103,9 +122,6 @@ body {
 }
 
 .hero-bottom-text {
-  font-size: 18px;
-  line-height: 1.67;
-  letter-spacing: 0.02em;
   color: #9da4bd;
 }
 
@@ -119,27 +135,15 @@ body {
 }
 
 .about-top-text {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  text-transform: uppercase;
   color: #303030;
 }
 
 .about-title {
-  font-family: 'Raleway', sans-serif;
-  font-size: 42px;
-  line-height: 1.17;
-  letter-spacing: 0.05em;
   color: var(--second-title-color);
 }
 
 .about-bottom-text {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  line-height: 1.67;
-  letter-spacing: 0.02em;
-  color: #303030;
+  color: #555;
 }
 
 .about-text {
@@ -150,18 +154,7 @@ body {
 }
 
 .about-btn {
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
   color:var(--second-btn-color);
-}
-
-.about-btn:is(:hover, :focus) {
-  color: var(--main-btn-color);
-  background-color: #FF6C00;
 }
 
 /**--------------- PRICES ---------------*/
@@ -170,43 +163,80 @@ body {
   background-color: #303030;
 }
 .prices-top-text {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  text-transform: uppercase;
   color: rgba(157, 164, 189, 0.60);
 }
 .prices-title {
-  font-family: 'Raleway', sans-serif;
-  font-size: 42px;
-  line-height: 1.17;
-  letter-spacing: 0.05em;
   color: #FFF;
 }
+
 .prices-list {
 }
-
 .prices-item {
 }
+
 .prices-item-text {
   font-size: 18px;
   line-height: 1.67; 
   letter-spacing: 0.02em;
   color: #9DA4BD;
 }
+
 .prices-btn {
-font-family: inherit;
-font-weight: 600;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 0.09em;
-text-transform: uppercase;
-color: #FFF;
+  color: #FFF;
 }
 
-.prices-btn:is(:hover, :focus) {
-  color: #fff;
-  background-color: #FF6C00;
+/**--------------- BENEFITS ---------------*/
+
+.benefits {
+}
+.benefits-list {
 }
 
+.benefits-item .count {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+.benefits-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+  color: #303030;
+}
 
+.benefits-top-text {
+  color: #303030;
+}
+
+.benefits-title {
+color: var(--second-title-color);
+}
+
+.benefits-bottom-text {
+color: #555;
+}
+
+/**--------------- BARBERS ---------------*/
+
+.barbers {
+}
+
+.barbers-top-text {
+  color: #303030;
+}
+
+.barbers-title {
+  color: var(--second-title-color);
+}
+
+.barbers-list {
+}
+
+.barbers-item-tittle {
+}
+.barbers-item-text {
+}
