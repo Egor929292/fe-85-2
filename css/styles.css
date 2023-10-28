@@ -135,15 +135,26 @@ body {
 }
 
 .about-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
   color: #303030;
 }
 
 .about-title {
-  color: var(--second-title-color);
+font-family: 'Raleway', sans-serif;
+font-size: 42px;
+line-height: 1.17;
+letter-spacing: 0.05em;
+color: #303030;
 }
 
 .about-bottom-text {
-  color: #555;
+font-size: 18px;
+line-height: 1.67;
+letter-spacing: 0.02em;
+color: #555555;
 }
 
 .about-text {
@@ -154,7 +165,13 @@ body {
 }
 
 .about-btn {
-  color:var(--second-btn-color);
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #303030;
 }
 
 /**--------------- PRICES ---------------*/
@@ -237,6 +254,23 @@ color: #555;
 }
 
 .barbers-item-tittle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.39;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color:#303030;
 }
 .barbers-item-text {
+  font-size: 14px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ff6c00;
+}
+
+/**--------------- BARBERS ---------------*/
+
+.gallery-top-text {
+  color: #303030;
 }
